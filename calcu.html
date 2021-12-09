@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>電卓の課題</title>
+    <link rel="stylesheet" href="calcu.css" type="text/css" />
+  </head>
+<body>
+  <div id=topscreen>0</div>
+  <table>
+    <tr>
+      <td><button class="No" onclick="clickNumber(this)">7</button></td>
+      <td><button class="No" onclick="clickNumber(this)">8</button></td>
+      <td><button class="No" onclick="clickNumber(this)">9</button></td>
+      <td><button id="NoP"  onclick="clickCal(this)">+</button></td>
+    </tr>
+    <tr>
+      <td><button class="No" onclick="clickNumber(this)">4</button></td>
+      <td><button class="No" onclick="clickNumber(this)">5</button></td>
+      <td><button class="No" onclick="clickNumber(this)">6</button></td>
+      <td><button id="NoN"  onclick="clickCal(this)">-</button></td>
+    </tr>
+    <tr>
+      <td><button class="No" onclick="clickNumber(this)">1</button></td>
+      <td><button class="No" onclick="clickNumber(this)">2</button></td>
+      <td><button class="No" onclick="clickNumber(this)">3</button></td>
+      <td><button id="NoA"  onclick="clickCal(this)">*</button></td>
+    </tr>
+    <tr>
+      <td><button class="No" onclick="clickNumber(this)">0</button></td>
+      <td><button class="No" onclick="click00(this)">00</button></td>
+      <td><button class="No" onclick="clickDot(this)">.</button></td>
+      <td><button id="NoS"  onclick="clickCal(this)">/</button></td>
+    </tr>
+     <tr> 
+      <td colspan="2"><button id="NoAC" onclick="clickAC(this)">AC</button></td>
+      <td colspan="2"><button id="NoE" onclick="clickE(this)">=</buttun></td>
+    </tr>
+  </table>
+  
+  
+   <script type="text/javascript" src="calcu.js" charset="utf-8"></script>
+</body>
+</html>
